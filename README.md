@@ -13,3 +13,6 @@ Keyboard Layout: Colemak DH ANSI. After some research I decided Colemak DH was t
 
 Keyboard/Mouse Input Modifier: Karabiner Elements. Explained above. I also changed Caps Lock to Bckspc inspired by a dev I look up to. This position is easier for me. Point is, modify the unused keys on your keyboard to useful keys that can be within your reach.
 
+
+Quality of Life Settings Changes for MacOS:
+1. Reduce Animations
