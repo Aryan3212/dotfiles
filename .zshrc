@@ -1,4 +1,5 @@
-zmodload zsh/zprof
+# Uncomment this line if you want to measure your prompt performance using the zprof command
+# zmodload zsh/zprof
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8
 
@@ -6,6 +7,7 @@ export PATH=/opt/homebrew/bin:$PATH
 
 alias vi="nvim"
 alias vim="nvim"
+# Lazy load nvm using zsh-nvm, performance gains
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
 plugins=(zsh-nvm git npm docker docker-compose terraform)
@@ -44,14 +46,14 @@ alias cd="z"
 eval "$(fzf --zsh)"
 
 # --- setup fzf theme ---
-fg="#CBE0F0"
-bg="#011628"
+fgg="#CBE0F0"
+bgg="#011628"
 bg_highlight="#143652"
 purple="#B388FF"
 blue="#06BCE4"
 cyan="#2CF9ED"
 
-export FZF_DEFAULT_OPTS="--color=fg:${fg},bg:${bg},hl:${purple},fg+:${fg},bg+:${bg_highlight},hl+:${purple},info:${blue},prompt:${cyan},pointer:${cyan},marker:${cyan},spinner:${cyan},header:${cyan}"
+export FZF_DEFAULT_OPTS="--color=fg:${fgg},bg:${bgg},hl:${purple},fg+:${fg},bg+:${bg_highlight},hl+:${purple},info:${blue},prompt:${cyan},pointer:${cyan},marker:${cyan},spinner:${cyan},header:${cyan}"
 
 # -- Use fd instead of fzf --
 
