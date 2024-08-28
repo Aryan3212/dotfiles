@@ -1,4 +1,4 @@
-# My Configs
+# My Unix Configs
 
 Inspired a lot by: @josean-dev
 
