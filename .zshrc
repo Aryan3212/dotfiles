@@ -1,5 +1,4 @@
-# This initializes zprof to measure your shell's performance
-# zmodload zsh/zprof
+zmodload zsh/zprof
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8
 
@@ -7,13 +6,10 @@ export PATH=/opt/homebrew/bin:$PATH
 
 alias vi="nvim"
 alias vim="nvim"
-
-# zsh-nvm needed to speed up prompt when using nvm: node version manager
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
 plugins=(zsh-nvm git npm docker docker-compose terraform)
 
-# don't use this a lot
 fancy-ctrl-z () {
   if [[ $#BUFFER -eq 0 ]]; then
     BUFFER="fg"
@@ -25,8 +21,6 @@ fancy-ctrl-z () {
 }
 zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
-
-# TODO
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export EDITOR='nvim'
@@ -139,6 +133,7 @@ bindkey '^[[B' history-search-forward
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-autoload -U promptinit; promptinit
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
+autoload -U promptinit;
+promptinit
 prompt pure
