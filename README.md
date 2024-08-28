@@ -1,5 +1,7 @@
 # My Configs
 
+Inspired a lot by: @josean-dev
+
 Goals? 1. Increase the time under flow state or in the focus zone, configuring and learning these tools take up a lot of time. The return on the time saved is not a lot I believe but the return on the focus gained is a lot. 1 minute of focused time is worth its weight in gold.
 
 Terminal: Wezterm - According to my research pretty good. The dev is also a nice guy. Still need to set up a proper workflow here.
