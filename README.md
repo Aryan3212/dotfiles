@@ -18,3 +18,7 @@ Keyboard/Mouse Input Modifier: Karabiner Elements. Explained above. I also chang
 
 Quality of Life Settings Changes for MacOS:
 1. Reduce Animations
+
+Add docs:
+1. Tools to install and use as dependencies.
+2. zsh-nvim, bat, eza, fd, fzf, ripgrep, tldr, pure etc. etc. etc.
