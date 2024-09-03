@@ -22,3 +22,4 @@ Quality of Life Settings Changes for MacOS:
 Add docs:
 1. Tools to install and use as dependencies.
 2. zsh-nvim, bat, eza, fd, fzf, ripgrep, tldr, pure etc. etc. etc.
+3. DevTools configuration to make things easier- Preserve Log, Network Tab settings.
